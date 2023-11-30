@@ -15,7 +15,7 @@
 div.grade-container{
     background-color: white;
     width: 80%;
-    height: 90%;
+    height: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -157,18 +157,35 @@ div.calc-btn input:hover{
     }
 }
 @media (max-width: 540px) {
-     input{
-        width: 60%;
+     input,
+     div.calc-btn input{
+        width: 100%;
+        margin-top: 5px;
     }
     
     .fh2{
-        font-size: 20px;
+        font-size: 15px;
+        padding: 0px 1rem;
     }
     form div label{
         font-size: 14px;
-        width: 40%;
+        width: 100%;
     }
     div span{
-        font-size: 12px;
+        font-size: 10px;
     }
+    div.grade-container{
+        width: 95%;
+        height: 880px;
+        /* transform: translateY(60px); */
+        margin: 1rem 0px;
+
+    }
+    body{
+        height: 900px;
+    }
+    form div {
+        flex-direction: column;
+    }
+    
 }

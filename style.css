@@ -170,7 +170,7 @@ div.calc-btn input:hover{
     form div label{
         font-size: 14px;
         width: 100%;
-        color: rgb(122, 77, 122);
+        color: rgba(128, 0, 128, 0.699);
         font-weight: 500;
     }
     div span{
